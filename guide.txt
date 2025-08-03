@@ -1,0 +1,124 @@
+# AnthamaLang — The Kannada Meme Programming Language 
+
+You are helping me build a toy programming language called **Anthama**.
+
+### Language Overview:
+
+* The language is designed purely for fun, memes, and Kannada cultural flavor.
+* It mimics real programming languages but uses **Kannada meme expressions** as keywords.
+* The syntax is sarcastic, dramatic, and expressive — inspired by exaggerated Kannada soap operas, trolls, and viral TikToks.
+* Files use the `.maga` extension.
+
+### Interpreter Goals:
+
+* Build a **Node.js CLI tool** called `anthama` that can run `.maga` files.
+* It parses custom syntax and executes basic programming constructs (variables, conditions, functions, loops, prints).
+* Include meme-driven console output — full of overreactions, dramatic cries, and Kannada slang.
+
+---
+
+### Language Syntax Reference:
+
+1. **Program start:**
+
+   * `namaskara guru` → Entry point (like `main` function)
+
+2. **Variable declaration:**
+
+   * `guru idu x = 10`
+   * Supports:
+
+     * Integers: `guru idu a = 10`
+     * Floats: `guru idu b = 10.20`
+     * Strings: `guru idu c = "text"`
+     * Null: `guru idu d = kaali`
+     * Booleans: `sari` (true), `thappu` (false)
+
+3. **Print statement:**
+
+   * `helu guru "RCB Jaikara!"`
+
+4. **If condition:**
+
+   * `idre nemdi agi irbaku (x > 5):`
+   * `illa andre:` → else
+
+5. **Loops (for-style):**
+
+   * `suttu guru (i < 5):` → for loop
+   * `hogu guru` → end loop block
+     Example:
+
+   ```anthama
+   guru idu i = 0
+
+   suttu guru (i < 5):
+       helu guru i
+       guru idu i = i + 1
+   hogu guru
+   ```
+
+6. **Input (User prompt):**
+
+   * `kelu guru "Enter your name:"`
+   * Takes user input and stores it as a variable
+
+7. **Error handling (meme style):**
+
+   * Errors print things like:
+
+     * `Yak Anna Ooooooo 😭, Line 4 alli thappu ide!`
+
+8. **Booleans and misc:**
+
+   * `sari` → true
+   * `thappu` → false
+   * `kaali` → null
+
+9. **Comments:**
+
+* `// Anthama idu serious alla `
+
+---
+
+### Output Example:
+
+Input file `drama.maga`:
+
+```anthama
+namaskara guru
+
+guru idu language = "Kannada"
+
+idre nemdi agi irbaku (language == "Kannada"):
+    helu guru "Bombattagide Guru!"
+illa andre:
+    helu guru "Yak Anna ooooo... thappu aaytu"
+
+mugitu guru
+```
+
+Output:
+
+```
+Bombattagide Guru!
+```
+
+---
+
+### Project Build Goals
+
+* Write the interpreter using Node.js
+* Recognize and parse `.maga` files
+* Support meme keywords and map them to real logic
+* Add fun CLI logs with Kannada-style sarcasm and memes
+* Allow people to install via:
+
+  ```bash
+  npm install -g anthama
+  ```
+* Run using:
+
+  ```bash
+  anthama myfile.maga
+  ```

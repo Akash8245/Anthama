@@ -1,0 +1,27 @@
+namaskara guru
+
+// Boolean and null examples
+guru idu isKannada = sari
+guru idu isEnglish = thappu
+guru idu emptyValue = kaali
+
+helu guru "isKannada = "
+helu guru isKannada
+
+helu guru "isEnglish = "
+helu guru isEnglish
+
+helu guru "emptyValue = "
+helu guru emptyValue
+
+idre nemdi agi irbaku (isKannada == sari):
+    helu guru "Kannada is sari! 🎉"
+illa andre:
+    helu guru "Yak Anna, Kannada thappu aaytu! 😭"
+
+idre nemdi agi irbaku (isEnglish == thappu):
+    helu guru "English thappu ide! 😤"
+illa andre:
+    helu guru "English sari aaytu! 🤔"
+
+mugitu guru 

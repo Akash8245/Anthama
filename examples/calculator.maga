@@ -1,0 +1,27 @@
+namaskara guru
+
+// Simple calculator in Anthama
+helu guru "Welcome to Anthama Calculator!"
+
+guru idu a = 10
+guru idu b = 5
+
+helu guru "a = "
+helu guru a
+helu guru "b = "
+helu guru b
+
+guru idu sum = a + b
+helu guru "Sum: "
+helu guru sum
+
+guru idu product = a * b
+helu guru "Product: "
+helu guru product
+
+idre nemdi agi irbaku (sum > 10):
+    helu guru "Sum is greater than 10! Bombat!"
+illa andre:
+    helu guru "Sum is less than or equal to 10"
+
+mugitu guru 

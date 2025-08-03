@@ -1,0 +1,10 @@
+namaskara guru
+
+guru idu language = "Kannada"
+
+idre nemdi agi irbaku (language == "Kannada"):
+    helu guru "Bombattagide Guru!"
+illa andre:
+    helu guru "Yak Anna ooooo... thappu aaytu"
+
+mugitu guru 

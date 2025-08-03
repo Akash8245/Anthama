@@ -1,0 +1,63 @@
+namaskara guru
+
+// Comprehensive Anthama example - demonstrating all features
+helu guru "🎭 Welcome to Anthama Programming Language! 🎭"
+
+// Variable declarations
+guru idu name = "Kannada Guru"
+guru idu age = 25
+guru idu isCool = sari
+guru idu emptyValue = kaali
+
+helu guru "Name: "
+helu guru name
+helu guru "Age: "
+helu guru age
+helu guru "Is Cool: "
+helu guru isCool
+helu guru "Empty Value: "
+helu guru emptyValue
+
+// Arithmetic operations
+guru idu a = 10
+guru idu b = 5
+guru idu sum = a + b
+guru idu product = a * b
+guru idu difference = a - b
+guru idu quotient = a / b
+
+helu guru "Arithmetic Results:"
+helu guru "Sum: "
+helu guru sum
+helu guru "Product: "
+helu guru product
+helu guru "Difference: "
+helu guru difference
+helu guru "Quotient: "
+helu guru quotient
+
+// Conditional logic
+idre nemdi agi irbaku (age > 18):
+    helu guru "You are an adult! 🎉"
+illa andre:
+    helu guru "You are still young! 😊"
+
+idre nemdi agi irbaku (isCool == sari):
+    helu guru "You are cool! 😎"
+illa andre:
+    helu guru "You need to be cooler! 😤"
+
+// Loop demonstration
+helu guru "Counting from 1 to 5:"
+guru idu i = 1
+suttu guru (i < 6):
+    helu guru i
+    guru idu i = i + 1
+hogu guru
+
+helu guru "Loop completed! 🎯"
+
+// Final message
+helu guru "Mugitu guru! Anthama programming language bombat ide! 🚀"
+
+mugitu guru 

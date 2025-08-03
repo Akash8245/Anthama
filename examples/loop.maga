@@ -1,0 +1,12 @@
+namaskara guru
+
+guru idu i = 0
+
+suttu guru (i < 5):
+    helu guru i
+    guru idu i = i + 1
+hogu guru
+
+helu guru "Loop mugitu guru!"
+
+mugitu guru 

@@ -1,0 +1,28 @@
+{
+  "name": "anthama",
+  "version": "1.0.1",
+  "description": "AnthamaLang — The Kannada Meme Programming Language",
+  "main": "src/interpreter.js",
+  "bin": {
+    "anthama": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node test/test.maga"
+  },
+  "keywords": [
+    "programming-language",
+    "kannada",
+    "meme",
+    "interpreter",
+    "cli"
+  ],
+  "author": "Anthama Guru",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
