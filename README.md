@@ -1,4 +1,4 @@
-# 🎭 AnthamaLang — The Kannada Meme Programming Language
+# 🎭 Anthama — The Kannada Meme Programming Language
 
 **"Guru, idu serious alla... idu meme programming language!"**
 
